@@ -1,0 +1,112 @@
+﻿@model webEcom.Models.ProductDATA
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>PRODUCTS</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="ProductType" class="control-label"></label>
+                <input asp-for="ProductType" class="form-control" required />
+                <span asp-validation-for="ProductType" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="ProductName" class="control-label"></label>
+                <input asp-for="ProductName" class="form-control" required  />
+                <span asp-validation-for="ProductName" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="ProductTag" class="control-label"></label>
+                <select class="form-select" asp-for="ProductTag">
+                    <option selected>เลือก...</option>
+                    <option value="#สินค้าแนะนำ">#สินค้าแนะนำ</option>
+                    <option value="#ประเภทขายดี">#ประเภทขายดี</option>
+                    <option value="#สินค้ามาใหม่">#สินค้ามาใหม่</option>
+                    <option value="#ราคาถูก">#ราคาถูก</option>
+                    <option value="#สินค้ามีแบรนด์">#สินค้ามีแบรนด์</option>
+                    <option value="#เสื้อผ้า">#เสื้อผ้า</option>
+                    <option value="#ของตกแต่ง">#ของตกแต่ง</option>
+                    <option value="#ของพ่อบ้าน">#ของพ่อบ้าน</option>
+                    <option value="#ของแม่บ้าน">#ของแม่บ้าน</option>
+                    <option value="#เหมาะกับเด็ก">#เหมาะกับเด็ก</option>
+                </select>
+                <span asp-validation-for="ProductTag" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-group">
+                <label asp-for="ProductPrice" class="control-label"></label>
+                <input asp-for="ProductPrice" class="form-control" required />
+                <span asp-validation-for="ProductPrice" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-group">
+                <label asp-for="ProductCount" class="control-label"></label>
+                <input asp-for="ProductCount" class="form-control" required />
+                <span asp-validation-for="ProductCount" class="text-danger"></span>
+            </div>
+
+
+
+
+            <div class="form-group">
+                <label asp-for="ProductDescription" class="control-label"></label>
+                <textarea class="form-control" asp-for="ProductDescription" placeholder="คำอธิบายสินค้า" style="height: 300px ;width:90vw" required></textarea>
+                <span asp-validation-for="ProductDescription" class="text-danger"></span>
+            </div>
+
+
+
+
+
+
+            <div class="form-group">
+                <label asp-for="ProductImage" class="control-label">IMAGE</label>
+                <input asp-for="ProductImage" name="ProductImage" type="file" accept='image/*' class="form-control" required />
+                <span asp-validation-for="ProductImage" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="ProductStatus" class="control-label"></label>
+                <input asp-for="ProductStatus" class="form-control"  />
+                <span asp-validation-for="ProductStatus" class="text-danger"></span>
+            </div>
+
+
+
+
+
+
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
