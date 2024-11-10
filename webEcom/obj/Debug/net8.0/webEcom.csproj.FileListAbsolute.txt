@@ -256,3 +256,4 @@ C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\refint\
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\webEcom.pdb
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\webEcom.genruntimeconfig.cache
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\ref\webEcom.dll
+C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\webEcom.sourcelink.json
