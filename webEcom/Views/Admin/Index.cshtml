@@ -10,6 +10,8 @@
      font-family:'Cloud Soft';
      background-color:azure;
     }
+
+ 
 </style>
 <style>
     .material-symbols-outlined {
@@ -24,14 +26,14 @@
     <div >
     <div class="row  mb-2 mt-1" >
     <div class="col-sm-1  me-2 mb-3">
-        <div class="d-grid gap-2">
-            <a asp-action="Create" class="btn btn-primary text-white text-decoration-none">เพิ่มสินค้า</a>
+                <div class="d-grid gap-2 ">
+                    <a asp-action="Create" class="btn btn-primary shadow fw-bolder   text-white text-decoration-none">เพิ่มสินค้า</a>
         </div>
     </div>
 
      <div class="col-sm-3 ">
         <form asp-controller="Admin" asp-action="Search">
-            <div class="input-group input-group-sm  ">
+                    <div class="input-group input-group-sm  shadow ">
                         <input type="text" name="querry" class="form-control" />
                         <button type="submit" class="btn btn-outline-secondary btn-light">
                     <span class="material-symbols-outlined">
@@ -115,8 +117,8 @@
 
                                 <div class="d-grid gap-2 d-md-block">
 
-                                    <button class="btn btn-warning" type="button">
-                                        <a asp-action="Edit" style="color:white;text-decoration:none;" asp-route-id="@item.IdProduct">Edit</a>
+                                            <button class="btn btn-warning  fw-bolder " type="button">
+                                        <a asp-action="Edit" style="color:white;text-decoration:none;" asp-route-id="@item.IdProduct">แก้ไข</a>
 
                                     </button>
 
@@ -127,8 +129,8 @@
 
                                 <div class="d-grid gap-2 d-md-block">
 
-                                    <button class="btn btn-info" type="button">
-                                        <a asp-action="Details" style="color:white;text-decoration:none;" asp-route-id="@item.IdProduct">Details</a>
+                                            <button class="btn btn-info  fw-bolder " type="button">
+                                        <a asp-action="Details" style="color:white;text-decoration:none;" asp-route-id="@item.IdProduct">รายละเอียด</a>
 
                                     </button>
 
@@ -139,8 +141,8 @@
 
                                 <div class="d-grid gap-2 d-md-block">
 
-                                    <button class="btn btn-danger" type="button">
-                                        <a asp-action="Delete" style="color:white;text-decoration:none;" asp-route-id="@item.IdProduct">Delete</a>
+                                            <button class="btn btn-danger fw-bolder " type="button">
+                                        <a asp-action="Delete" style="color:white;text-decoration:none;" asp-route-id="@item.IdProduct">ลบรายการ</a>
 
                                     </button>
 

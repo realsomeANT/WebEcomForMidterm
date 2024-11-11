@@ -14,9 +14,9 @@
 
 
 
-<h1>Edit</h1>
+<h1>แก้ไขรายการสินค้า</h1>
 
-<h4>PRODUCTS</h4>
+<h4>รายละเอียดสินค้า</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -26,22 +26,22 @@
             <input type="hidden" asp-for="IformfileProductInputImage" />
             <input type="hidden" asp-for="ProductImageType" />
 
-
+            <br />
             <div class="form-group">
-                <label asp-for="ProductType" class="control-label"></label>
+                <label asp-for="ProductType" style=" font-size: 1.5vw " class="control-label"></label>
                 <input asp-for="ProductType" class="form-control"  />
                 <span asp-validation-for="ProductType" class="text-danger"></span>
             </div>
 
-
+            <br />
             <div class="form-group">
-                <label asp-for="ProductName" class="control-label"></label>
+                <label asp-for="ProductName" style=" font-size: 1.5vw "  class="control-label"></label>
                 <input asp-for="ProductName" class="form-control"  />
                 <span asp-validation-for="ProductName" class="text-danger"></span>
             </div>
-
+            <br />
             <div class="form-group">
-                <label asp-for="ProductTag" class="control-label"></label>
+                <label asp-for="ProductTag" style=" font-size: 1.5vw "  class="control-label"></label>
                 <select class="form-select" asp-for="ProductTag">
                     <option selected>เลือก...</option>
                     <option value="#สินค้าแนะนำ">#สินค้าแนะนำ</option>
@@ -58,26 +58,26 @@
                 <span asp-validation-for="ProductTag" class="text-danger"></span>
             </div>
 
-
+            <br />
 
             <div class="form-group">
-                <label asp-for="ProductPrice" class="control-label"></label>
+                <label asp-for="ProductPrice" style=" font-size: 1.5vw "  class="control-label"></label>
                 <input asp-for="ProductPrice" class="form-control"  />
                 <span asp-validation-for="ProductPrice" class="text-danger"></span>
             </div>
 
-
+            <br />
 
             <div class="form-group">
-                <label asp-for="ProductCount" class="control-label"></label>
+                <label asp-for="ProductCount" style=" font-size: 1.5vw "  class="control-label"></label>
                 <input asp-for="ProductCount" class="form-control"  />
                 <span asp-validation-for="ProductCount" class="text-danger"></span>
             </div>
 
-
+            <br />
 
             <div class="form-group">
-                <label asp-for="ProductDescription" class="control-label"></label>
+                <label asp-for="ProductDescription" style=" font-size: 1.5vw "  class="control-label"></label>
                 <textarea class="form-control" asp-for="ProductDescription" placeholder="คำอธิบายสินค้า" style="height: 300px ;width:90vw" ></textarea>
                 <span asp-validation-for="ProductDescription" class="text-danger"></span>
             </div>
@@ -85,22 +85,22 @@
 
 
 
-
+            <br />
 
             <div class="form-group">
-                <label asp-for="IformfileProductInputImage" class="control-label">IMAGE</label>
+                <label asp-for="IformfileProductInputImage" style=" font-size: 1.5vw "  class="control-label">รูปภาพสินค้า</label>
                 <input asp-for="ProductImage" name="ProductImage" type="file" accept='image/*' class="form-control"  />
                 <span asp-validation-for="ProductImage" class="text-danger"></span>
             </div>
 
 
 
-
-            <div class="form-group">
+            <br />
+            <div class="form-group" style=" font-size: 1.5vw " >
 
                 <span>
                     <p>
-                        Current Image:
+                        รูปปัจจุบัน:
                         @if (Model.IformfileProductInputImage != null && Model.IformfileProductInputImage.Length > 0)
                         {
                             <img src="data:@Model.ProductImageType;base64,@Convert.ToBase64String(Model.IformfileProductInputImage)" class="rounded-3 img-thumbnail mt-3" alt="User Picture" style="width:25%" />
@@ -110,7 +110,7 @@
 
             </div>
 
-
+            <br />
 
             <div class="form-group">
                 <label asp-for="ProductStatus" class="control-label"></label>
@@ -119,18 +119,28 @@
             </div>
 
 
-
+            <br />
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit"  value="บันทึก" class="btn btn-success shadow fw-bolder" />
             </div>
         </form>
     </div>
 </div>
 <br />
+<hr class="border border-secondary border-2 opacity-50">
 
-<div>
-    <a asp-action="Index">Back to List</a>
+<div class="row  " style="margin-left:45%">
+ 
+    <div class="col" >
+        <div style="display:inline-block ;">
+            <a asp-action="Index" class="btn btn-primary shadow fw-bolder text-white text-decoration-none">กลับสู่รายการ</a>
+        </div>
+    </div>
 </div>
+
+<br />
+
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

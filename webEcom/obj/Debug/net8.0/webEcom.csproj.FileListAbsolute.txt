@@ -240,6 +240,7 @@ C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\webEcom
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\webEcom.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\webEcom.RazorAssemblyInfo.cache
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\webEcom.RazorAssemblyInfo.cs
+C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\webEcom.sourcelink.json
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\staticwebassets\msbuild.webEcom.Microsoft.AspNetCore.StaticWebAssets.props
@@ -256,4 +257,3 @@ C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\refint\
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\webEcom.pdb
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\webEcom.genruntimeconfig.cache
 C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\ref\webEcom.dll
-C:\Users\lenovo\Desktop\Projrct mid web\webEcom\webEcom\obj\Debug\net8.0\webEcom.sourcelink.json
