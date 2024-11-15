@@ -30,7 +30,6 @@ namespace webEcom.Models
 
         [Required]
         [Display(Name = "จำนวน")]
-
         public int? ProductCount { get; set; }
 
 
@@ -44,20 +43,37 @@ namespace webEcom.Models
         [Display(Name = "รูปภาพสินค้า")]
         public byte[]?  IformfileProductInputImage { get; set; }
 
+
+
         [Display(Name = "นามสกุลรูปภาพ")]
         public string? ProductImageType { get; set; }
-        [Display(Name = "สถานะสินค้า")]
 
+
+
+        [Display(Name = "สถานะสินค้า")]
         public string? ProductStatus { get; set; }
+
+
+
         [Display(Name = "เบอร์โทรผู้ซื้อสินค้า")]
         public string? ProductUserTel { get; set; }
-        [Display(Name = "ชื่อผู้ซื้อสินค้า")]
 
+
+
+        [Display(Name = "ชื่อผู้ซื้อสินค้า")]
         public string? ProductUserName { get; set; }
 
 
+        [Display(Name = "ที่อยู่ผู้ซื้อสินค้า")]
+        public string? ProductUserAddress { get; set; }
 
 
+
+        [Display(Name = "วันที่ลงสินค้า")]
+        public DateTime? ProductCreateTime { get; set; } = DateTime.Now;
+
+        [Display(Name = "เวลาที่ลูกค้านำสินค้าใส่ตะกล้า")]
+        public DateTime? ProductUserCart { get; set; }
 
 
 

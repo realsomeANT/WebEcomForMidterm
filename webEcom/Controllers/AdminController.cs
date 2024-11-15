@@ -81,7 +81,9 @@ namespace webEcom.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
 
-        public async Task<IActionResult> Create([Bind(" IdProduct,ProductType,ProductName,ProductTag,ProductDescription,ProductPrice,ProductCount,IformfileProductInputImage,ProductImageType,ProductStatus")] ProductDATA pRODUCTS, IFormFile ProductImage)
+        public async Task<IActionResult> Create([Bind(" IdProduct,ProductType,ProductName,ProductTag,ProductDescription," +
+            "ProductPrice,ProductCount,IformfileProductInputImage,ProductImageType,ProductStatus,ProductCreateTime")] 
+             ProductDATA pRODUCTS, IFormFile ProductImage)
         {
             if (ModelState.IsValid)
             {
@@ -125,7 +127,9 @@ namespace webEcom.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
 
-        public async Task<IActionResult> Edit(int id, [Bind(" IdProduct,ProductType,ProductName,ProductTag,ProductDescription,ProductPrice,ProductCount,ProductImage,IformfileProductInputImage,ProductImageType,ProductStatus")] ProductDATA pRODUCTS )
+        public async Task<IActionResult> Edit(int id, [Bind(" IdProduct,ProductType,ProductName,ProductTag," +
+                                                "ProductDescription,ProductPrice,ProductCount,ProductImage,IformfileProductInputImage," +
+                                                "ProductImageType,ProductStatus,")]  ProductDATA pRODUCTS )
         {
             if (id != pRODUCTS.IdProduct)
             {

@@ -37,6 +37,9 @@ namespace webEcom.Migrations
                         .IsRequired()
                         .HasColumnType("int");
 
+                    b.Property<DateTime?>("ProductCreateTime")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("ProductDescription")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -62,6 +65,12 @@ namespace webEcom.Migrations
                     b.Property<string>("ProductType")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProductUserAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ProductUserCart")
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("ProductUserName")
                         .HasColumnType("nvarchar(max)");

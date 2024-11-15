@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -26,7 +27,10 @@ namespace webEcom.Migrations
                     ProductImageType = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ProductStatus = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ProductUserTel = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    ProductUserName = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    ProductUserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ProductUserAddress = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    ProductCreateTime = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    ProductUserCart = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
                 {

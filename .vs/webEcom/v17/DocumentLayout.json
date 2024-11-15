@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\migrations\\webecomdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\migrations\\webecomdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\models\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\models\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\data\\_identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\data\\_identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\data\\webecomdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\data\\webecomdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\views\\admin\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -55,261 +19,136 @@
       "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\views\\admin\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\views\\admin\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\views\\admin\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\migrations\\_identitydb\\20241112103353_adduserstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\migrations\\_identitydb\\20241112103353_adduserstable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\projrct mid web\\webecom\\webecom\\migrations\\20241115142904__.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08999719-930E-4785-B63F-F31FA9A06290}|webEcom\\webEcom.csproj|solutionrelative:webecom\\migrations\\20241115142904__.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Create.cshtml",
-              "RelativeDocumentMoniker": "webEcom\\Views\\Admin\\Create.cshtml",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Create.cshtml",
-              "RelativeToolTip": "webEcom\\Views\\Admin\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-04T15:56:06.237Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "webEcomDBContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Migrations\\webEcomDBContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "webEcom\\Migrations\\webEcomDBContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Migrations\\webEcomDBContextModelSnapshot.cs",
-              "RelativeToolTip": "webEcom\\Migrations\\webEcomDBContextModelSnapshot.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T04:25:34.417Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\appsettings.json",
-              "RelativeDocumentMoniker": "webEcom\\appsettings.json",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\appsettings.json",
-              "RelativeToolTip": "webEcom\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-12T09:54:37.608Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Program.cs",
-              "RelativeDocumentMoniker": "webEcom\\Program.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Program.cs",
-              "RelativeToolTip": "webEcom\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T09:54:27.139Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "webEcom\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "webEcom\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:11:24.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\ViewModels\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "webEcom\\ViewModels\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\ViewModels\\RegisterViewModel.cs",
-              "RelativeToolTip": "webEcom\\ViewModels\\RegisterViewModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:13:05.792Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "webEcom\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "webEcom\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:10:54.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "webEcom\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "webEcom\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:10:09.955Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "webEcom\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "webEcom\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-12T09:55:45.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "_IdentityDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Data\\_IdentityDbContext.cs",
-              "RelativeDocumentMoniker": "webEcom\\Data\\_IdentityDbContext.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Data\\_IdentityDbContext.cs",
-              "RelativeToolTip": "webEcom\\Data\\_IdentityDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:12:36.799Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "webEcomDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Data\\webEcomDBContext.cs",
-              "RelativeDocumentMoniker": "webEcom\\Data\\webEcomDBContext.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Data\\webEcomDBContext.cs",
-              "RelativeToolTip": "webEcom\\Data\\webEcomDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:12:54.518Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "webEcom\\Models\\Users.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Models\\Users.cs",
-              "RelativeToolTip": "webEcom\\Models\\Users.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAqwAMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:09:20.011Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20241112103353_AddUsersTable.cs",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Migrations\\_IdentityDb\\20241112103353_AddUsersTable.cs",
-              "RelativeDocumentMoniker": "webEcom\\Migrations\\_IdentityDb\\20241112103353_AddUsersTable.cs",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Migrations\\_IdentityDb\\20241112103353_AddUsersTable.cs",
-              "RelativeToolTip": "webEcom\\Migrations\\_IdentityDb\\20241112103353_AddUsersTable.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:33:54.004Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Edit.cshtml",
-              "RelativeDocumentMoniker": "webEcom\\Views\\Admin\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Edit.cshtml",
-              "RelativeToolTip": "webEcom\\Views\\Admin\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T15:54:49.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Delete.cshtml",
-              "RelativeDocumentMoniker": "webEcom\\Views\\Admin\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Delete.cshtml",
-              "RelativeToolTip": "webEcom\\Views\\Admin\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T15:29:37.299Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Details.cshtml",
-              "RelativeDocumentMoniker": "webEcom\\Views\\Admin\\Details.cshtml",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Details.cshtml",
-              "RelativeToolTip": "webEcom\\Views\\Admin\\Details.cshtml",
-              "ViewState": "AgIAAGwAAAAAAAAAAIBJwHoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-11T15:29:24.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "bootstrap.bundle.js",
-              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-              "RelativeDocumentMoniker": "webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-              "RelativeToolTip": "webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-              "ViewState": "AgIAAC4CAAAAAAAAAAAlwD4CAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-11T12:53:34.218Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "webEcom\\Views\\Admin\\Index.cshtml",
               "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Index.cshtml",
               "RelativeToolTip": "webEcom\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAuwHUAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-05T10:13:12.733Z"
+              "WhenOpened": "2024-11-15T14:34:52.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Delete.cshtml",
+              "RelativeDocumentMoniker": "webEcom\\Views\\Admin\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Delete.cshtml",
+              "RelativeToolTip": "webEcom\\Views\\Admin\\Delete.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T14:33:59.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Details.cshtml",
+              "RelativeDocumentMoniker": "webEcom\\Views\\Admin\\Details.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Details.cshtml",
+              "RelativeToolTip": "webEcom\\Views\\Admin\\Details.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAIwGcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T14:32:30.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241115142904__.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Migrations\\20241115142904__.cs",
+              "RelativeDocumentMoniker": "webEcom\\Migrations\\20241115142904__.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Migrations\\20241115142904__.cs",
+              "RelativeToolTip": "webEcom\\Migrations\\20241115142904__.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:29:04.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Create.cshtml",
+              "RelativeDocumentMoniker": "webEcom\\Views\\Admin\\Create.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Create.cshtml",
+              "RelativeToolTip": "webEcom\\Views\\Admin\\Create.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAAF0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T13:17:12.169Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Edit.cshtml",
+              "RelativeDocumentMoniker": "webEcom\\Views\\Admin\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Views\\Admin\\Edit.cshtml",
+              "RelativeToolTip": "webEcom\\Views\\Admin\\Edit.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T13:22:26.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "webEcom\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "webEcom\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAADwv4MAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T12:41:00.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductDATA.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Models\\ProductDATA.cs",
+              "RelativeDocumentMoniker": "webEcom\\Models\\ProductDATA.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\Models\\ProductDATA.cs",
+              "RelativeToolTip": "webEcom\\Models\\ProductDATA.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAiwEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T04:40:59.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }
