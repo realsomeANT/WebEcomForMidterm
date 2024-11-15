@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\webEcom.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
       "Id": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\wwwroot\\images\\Bg1.jpg",
+      "PackagePath": "staticwebassets\\images\\Bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\wwwroot\\images\\Logo1.png",
+      "PackagePath": "staticwebassets\\images\\Logo1.png"
     },
     {
       "Id": "C:\\Users\\lenovo\\Desktop\\Projrct mid web\\webEcom\\webEcom\\wwwroot\\js\\site.js",
