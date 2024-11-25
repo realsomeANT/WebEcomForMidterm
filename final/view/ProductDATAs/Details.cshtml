@@ -1,0 +1,124 @@
+﻿@model webEcom.Models.ProductDATA
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    body {
+        font-family: 'Cloud Soft';
+        background-color: ghostwhite;
+    }
+
+    .detail-box {
+        background-color: white; /* สีพื้นหลังอ่อน */
+        padding: 10px; /* ระยะห่างด้านใน */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+        border-radius: 25px;
+    }
+
+    .product-image {
+        width: 100%;
+        aspect-ratio: 1 / 1; /* ทำให้เป็นสี่เหลี่ยมจัตุรัส */
+        object-fit: cover; /* ครอบภาพให้เต็มพื้นที่ */
+        cursor: pointer; /* แสดงรูปแบบคลิกได้ */
+        border-radius: 15px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .fixed-height-row {
+        min-height: 60px; /* ความสูงขั้นต่ำ */
+        padding: 10px; /* ระยะห่างด้านใน */
+        margin-bottom: 10px;
+    }
+</style>
+
+<h1>Details</h1>
+<a asp-action="Index">Back to List</a>
+<div>
+    <h4>PRODUCTS</h4>
+    <hr />
+    <div class="row detail-box">
+        <div class="col-md-5">
+            @if (Model.IformfileProductInputImage != null && Model.IformfileProductInputImage.Length > 0)
+            {
+                <!-- ภาพขนาดย่อ -->
+                <img src="data:@Model.ProductImageType;base64,@Convert.ToBase64String(Model.IformfileProductInputImage)"
+                     class="product-image"
+                     alt="Product Image"
+                     data-bs-toggle="modal"
+                     data-bs-target="#imageModal" />
+            }
+        </div>
+        <div class="col-md-7">
+            <div class="row fixed-height-row">
+                <h1> @Html.DisplayFor(model => model.ProductName) </h1>
+            </div>
+            <div class="row fixed-height-row">
+                <h3 class="text-danger">  @Html.DisplayFor(model => model.ProductPrice) บาท </h3>
+            </div>
+            <div class="row fixed-height-row">
+                <h6>@Html.DisplayFor(model => model.ProductCreateTime)</h6>
+                <h6> จำนวนสินค้า :  @Html.DisplayFor(model => model.ProductCount) ชิ้น </h6>
+            </div>
+            <div class="row fixed-height-row" style="margin-top : 20px">
+                <h5>
+                    รอใส่จำนวนที่ซื้อ ปุ่ม
+                </h5>
+            </div>
+            <div class="row fixed-height-row">
+                <form method="post" asp-action="AddToCart" asp-route-productId="@Model.IdProduct">
+                    <button type="submit" class="btn btn-primary">เพิ่มเข้าตะกร้า</button>
+                </form>
+                <form method="post" asp-action="Buy" asp-route-productId="@Model.IdProduct">
+                    <button type="submit" class="btn btn-success">ซื้อสินค้า</button>
+                </form>
+            </div>
+         </div>
+        
+    </div>
+    <div class="row detail-box" style="margin-top:50px ">
+        <h4>รายละเอียดสินค้า</h4>
+        <div class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ProductType)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ProductType)
+            </dd>
+        </div>
+        <div class="row">
+            @Html.DisplayFor(model => model.ProductTag)
+        </div>
+        <hr />
+        <div class="row">
+            @Html.DisplayFor(model => model.ProductDescription)
+        </div>
+    </div>
+
+
+   
+
+
+
+
+
+
+    </dl>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel">@Html.DisplayFor(model => model.ProductName)</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="data:@Model.ProductImageType;base64,@Convert.ToBase64String(Model.IformfileProductInputImage)"
+                     class="img-fluid"
+                     alt="Full Product Image" />
+            </div>
+        </div>
+    </div>
+</div>
