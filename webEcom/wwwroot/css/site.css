@@ -1,0 +1,360 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    .custom-box {
+        margin-bottom: 20px;
+    }
+
+    .banner-text h1 {
+        font-size: 1.5rem; /* ลดขนาดหัวเรื่อง */
+    }
+}
+
+@media (max-width: 576px) {
+    .square-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card {
+        margin-bottom: 10px;
+    }
+}
+.square-img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* ตัดขอบรูปให้อยู่ในกรอบ */
+    border-radius: 5px; 
+    aspect-ratio: 1 / 1; /*รูปเป็นสี่เหลี่ยมจัตุรัส */
+}
+
+.custom-card {
+    min-height: 250px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+    .custom-card:hover {
+        transform: scale(1.1);
+    }
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+}
+
+
+/* View Details */
+.detail-box {
+    background-color: white;
+    padding: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.product-image {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* ทำให้เป็นสี่เหลี่ยมจัตุรัส */
+    object-fit: cover; /* ครอบภาพให้เต็มพื้นที่ */
+    cursor: pointer; 
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+
+.product-image:hover {
+        transform: scale(1.05);
+ }
+
+.fixed-height-row {
+    min-height: 60px; /* ความสูงขั้นต่ำ */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.btn-custom {
+    background-color: #0B8494;
+    color: white; 
+    width: 100%; /* ทำให้ปุ่มยาวเต็มความกว้าง */
+    text-align: center; 
+    padding: 10px; 
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-custom:hover {
+        background-color: #08676e; /* เปลี่ยนสีเมื่อ hover */
+        color: white; 
+ }
+
+.buttonback {
+    display: inline-block;
+    border: none;
+    padding: 0;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+    .buttonback:hover {
+        transform: scale(1.1);
+    }
+/* View Details */
+
+/* Products */
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 100, 'GRAD' 0, 'opsz' 10
+}
+
+.custom-bg {
+    background-color: #ffcccb;
+    color: #333; 
+}
+
+.custom-box {
+    background-color: white; /* สีพื้นหลังอ่อน */
+    padding: 10px; /* ระยะห่างด้านใน */
+}
+
+.form-control {
+    border-radius: 1.5rem;
+}
+.btn-group:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+    left: 100%;
+}
+
+.banner {
+    position: relative;
+    width: 100%; 
+    max-height: 250px; 
+    overflow: hidden; /* ซ่อนส่วนที่เกินจากขนาด */
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.banner-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* ทำให้ภาพพอดีกับขนาดของแบนเนอร์ */
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%; 
+    left: 5%; 
+    transform: translateY(-50%); 
+
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+    .banner-text h1 {
+        font-size: 2.5rem; /* ขนาดตัวอักษรใหญ่ */
+        margin: 0;
+    }
+
+.btn-tag {
+    border: 1px solid #125B9A;
+    border-radius: 1.5rem;
+    background-color: white;
+    color: #125B9A;
+}
+
+    .btn-tag:hover {
+        transform: scale(1.1);
+        background-color: #125B9A;
+        color: white;
+    }
+
+.btn-fillter {
+    border-radius: 1.5rem;
+    margin: 10px;
+    background-color: #0B8494;
+    color: white;
+}
+
+    .btn-fillter:hover {
+        transform: scale(1.1);
+        color: white;
+    }
+
+
+/* ปุ่มพื้นฐาน */
+.pagination .page-link {
+    color: #125B9A; 
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    transition: all 0.3s ease; 
+}
+
+    /* ปุ่มที่ถูก hover */
+    .pagination .page-link:hover {
+        color: #fff;
+        background-color: #125B9A; 
+        border-color: #125B9A;
+    }
+
+/* ปุ่มที่กำลัง active */
+.pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: #125B9A; 
+    border-color: #125B9A;
+}
+
+/* ปุ่มที่ถูก disable */
+.pagination .page-item.disabled .page-link {
+    color: #999; 
+    background-color: #f9f9f9; 
+    border-color: #ddd;
+}
+#carouselExampleRide {
+    width: 100%; 
+    height: 400px; 
+    overflow: hidden; 
+}
+
+    #carouselExampleRide .carousel-item {
+        height: 100%; /* กำหนดความสูงของแต่ละ item ให้เต็มพื้นที่ */
+    }
+
+        #carouselExampleRide .carousel-item img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+        }
+/* เมื่อหน้าจอมีความกว้างน้อยกว่า 768px */
+@media (max-width: 768px) {
+    .bt-Cate {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    /* เมื่อหน้าจอมีความกว้างน้อยกว่า 480px */
+    @media (max-width: 480px) {
+        .bt-Cate {
+            font-size: 12px;
+            padding: 5px 10px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .carousel-caption {
+            bottom: 10%;
+            padding: 5px;
+            width: 100%;
+            left: 0;
+        }
+    }
+
+    @media (max-width: 375px) {
+        .carousel-caption {
+            padding: 5px;
+        }
+    }
+
+    #carouselExampleRide {
+        width: 100%; /* กำหนดความกว้างเต็มหน้าจอ */
+        height: 300px; /* ปรับความสูงของแบนเนอร์ตามที่ต้องการ */
+        overflow: hidden; /* ป้องกันไม่ให้แบนเนอร์เลื่อนออกนอกพื้นที่ */
+    }
+
+        #carouselExampleRide .carousel-item {
+            height: 100%; /* กำหนดความสูงของแต่ละ item ให้เต็มพื้นที่ */
+        }
+
+            #carouselExampleRide .carousel-item img {
+                width: 100%; /* ให้รูปภาพขยายเต็มความกว้าง */
+                height: 100%; /* ให้รูปภาพขยายเต็มความสูง */
+                object-fit: cover; /* ให้รูปครอบเต็มพื้นที่โดยไม่บิดเบี้ยว */
+            }
+
+
+    .product-card h3 {
+        margin-top: 0;
+    }
+
+    .bt-Cate {
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+        border-radius: 0px;
+        padding: 10px;
+        margin: 0px;
+    }
+
+        .bt-Cate:hover {
+            transform: scale(1.1);
+            background-color: #125B9A;
+            color: white;
+        }
+
+    .carousel-caption {
+        position: absolute;
+        top: 50%; /* กึ่งกลางในแนวตั้ง */
+        left: 50%; /* กึ่งกลางในแนวนอน */
+        transform: translate(-50%, -50%); /* ใช้ translate เพื่อปรับจุดศูนย์กลาง */
+        text-align: center;
+        padding: 15px; /* เพิ่มพื้นที่ภายใน */
+        border-radius: 10px; /* มุมโค้งมน */
+        width: auto; /* ให้ขนาดปรับตามเนื้อหา */
+        max-width: 80%; /* จำกัดความกว้าง */
+    }
+
+        .carousel-caption h5 {
+            font-size: 2rem; /* ขนาดหัวข้อใหญ่ */
+            margin-bottom: 10px; /* ระยะห่างระหว่างหัวข้อ */
+            color: white;
+        }
+
+        .carousel-caption p {
+            font-size: 1.2rem; /* ขนาดข้อความย่อหน้าน้อยกว่าหัวข้อ */
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .carousel-caption a {
+            font-size: 1rem; /* ขนาดปุ่มเหมาะสม */
+            padding: 10px 20px;
+            background-color: #F05A7E;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+    .btn-go:hover {
+        transform: scale(1.1);
+    }
+}
+   

@@ -1,0 +1,85 @@
+﻿@model webEcom.Models.ProductDATA
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<style>
+    body {
+        font-family: 'Cloud Soft';
+        background-color: white;
+    }
+</style>
+
+
+<a asp-action="Cart" class="buttonback" style="display: inline-block; border: none; padding: 0; text-decoration: none;">
+    <img src="/images/back-button.png" alt="Icon" style="width: 40px; height: auto;">
+</a>
+<h4 style="display: inline-block; padding-top:10px;">PRODUCT</h4>
+
+<div>
+    <div class="row detail-box">
+        <div class="col-md-5">
+            @if (Model.IformfileProductInputImage != null && Model.IformfileProductInputImage.Length > 0)
+            {
+                <!-- ภาพขนาดย่อ -->
+                <img src="data:@Model.ProductImageType;base64,@Convert.ToBase64String(Model.IformfileProductInputImage)"
+                     class="product-image"
+                     style="margin-top:20px; margin-bottom:20px;"
+                     alt="Product Image"
+                     data-bs-toggle="modal"
+                     data-bs-target="#imageModal" />
+            }
+            <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <img src="data:@Model.ProductImageType;base64,@Convert.ToBase64String(Model.IformfileProductInputImage)"
+                                 alt="Full-size Product Image"
+                                 class="img-fluid" style="max-height: 80vh;" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="row fixed-height-row">
+                <h1 class="fw-bolder"> @Html.DisplayFor(model => model.ProductName) <span style="color:#F05a7e">@Html.DisplayFor(model => model.ProductTag)</span></h1>
+            </div>
+
+            <div class="row fixed-height-row">
+                <h2 class="text fw-bolder" style="color : #f05a74">฿@Html.DisplayFor(model => model.ProductPrice) </h2>
+            </div>
+            <div class="row fixed-height-row">
+                <h6 class="text-muted">วันที่สร้าง: @Html.DisplayFor(model => model.ProductCreateTime)</h6>
+                <h6 class="text-muted">จำนวนสินค้า: @Html.DisplayFor(model => model.ProductCount) ชิ้น</h6>
+            </div>
+
+        </div>
+        <div class="row ">
+            <h4 class="fw-bolder" style="margin-top:20px;">รายละเอียดสินค้า</h4>
+
+            <div class="row" style="margin-top:5px;">
+                <div class="col-sm-12">
+
+                    <h5>@Html.DisplayNameFor(model => model.ProductType) <span style=" font-family:'Cloud Soft light'">- @Html.DisplayFor(model => model.ProductType)</span></h5>
+                </div>
+
+            </div>
+
+            <br />
+            <br />
+            <hr />
+            <div class="row" style="font-family:'Cloud Soft light'">
+                <h5>    @Html.DisplayFor(model => model.ProductDescription)</h5>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</div>

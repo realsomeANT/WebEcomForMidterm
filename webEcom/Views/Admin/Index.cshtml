@@ -1,0 +1,162 @@
+﻿@model IEnumerable<webEcom.Models.ProductDATA>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=search" />
+<link href="~/css/myCsstrue.css" rel="stylesheet" />
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    body {
+        font-family: 'Cloud Soft';
+        background-color: #F05A7E;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 100, 'GRAD' 0, 'opsz' 10;
+    }
+</style>
+
+<div class="frameart" >
+    <h1>รายการสินค้าทั้งหมด</h1>
+    <div>
+        <div class="row mb-2 mt-1 ">
+
+            <div class="col-lg-5  me-4 mb-3">
+                <form asp-controller="Admin" asp-action="Search">
+                    <div>
+                        <div class="input-group   input-group-sm">
+                            <input type="text" name="querry" class="form-control  " style="border-radius:2vw;" />
+                            <button type="submit" class="btn btn-outline-secondary btn-light" style="border-radius:2vw ;position:relative; margin-left:5px;">
+                                <span class="material-symbols-outlined">search</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="col-lg-3  mb-2 " style="margin-right:30px;">
+                <div class="d-grid gap-2">
+                    <a asp-action="Create" class="btn btn-primary shadow fw-bolder text-white text-decoration-none">เพิ่มสินค้า</a>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="row mb-2 ">
+            <div class="col-lg-4   mb-4" style="margin-right:auto;">
+                <div class="d-grid gap-2">
+                    <a asp-action="FilterByMarket" class="btn btncolor  shadow fw-bolder text-white text-decoration-none">ร้านค้า</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4  mb-4" style="margin-right:auto;">
+                <div class="d-grid gap-2">
+                    <a asp-action="FilterByInCart" class="btn  btncolor fw-bolder text-white text-decoration-none">ตะกร้า</a>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4" style="margin-right:auto;">
+                <div class="d-grid gap-2">
+                    <a asp-action="FilterByรอตรวจสอบ" class="btn btncolor  shadow fw-bolder text-white text-decoration-none">รอตรวจสอบ</a>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div>
+        <div class="row mb-2 ">
+
+            <div class="col-lg-4 mb-4" style="margin-right:auto;">
+                <div class="d-grid gap-2">
+                    <a asp-action="FilterByชำระแล้ว" class="btn btncolor  shadow fw-bolder text-white text-decoration-none">ชำระแล้ว</a>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4" style="margin-right:auto;">
+                <div class="d-grid gap-2">
+                    <a asp-action="FilterByส่งแล้ว" class="btn btncolor  shadow fw-bolder text-white text-decoration-none">ส่งแล้ว</a>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4" style="margin-right:auto;">
+                <div class="d-grid gap-2">
+                    <a asp-action="FilterByส่งสำเร็จแล้ว" class="btn btncolor  shadow fw-bolder text-white text-decoration-none">ส่งสำเร็จแล้ว</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="border border-dark border-3 rounded-3" style="background-color:lightgray">
+        <div class="table-responsive">
+            <table class="table" style="font-family:'Cloud Soft light';">
+                <thead style="background-color:#0BB494">
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.IformfileProductInputImage)</th>
+                        <th>@Html.DisplayNameFor(model => model.ProductType)</th>
+                        <th>@Html.DisplayNameFor(model => model.ProductName)</th>
+                        <th>@Html.DisplayNameFor(model => model.ProductTag)</th>
+                        <th>@Html.DisplayNameFor(model => model.ProductPrice)</th>
+                        <th>@Html.DisplayNameFor(model => model.ProductCount)</th>
+                        <th>@Html.DisplayNameFor(model => model.ProductStatus)</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody style="background-color:ivory">
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>
+                                @if (item.IformfileProductInputImage != null && item.IformfileProductInputImage.Length > 0)
+                                {
+                                    <img src="data:@item.ProductImageType;base64,@Convert.ToBase64String(item.IformfileProductInputImage)" class="rounded-3 img-thumbnail" alt="User Picture" style="width:100px" />
+                                }
+                            </td>
+                            <td>@Html.DisplayFor(modelItem => item.ProductType)</td>
+                            <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                            <td>@Html.DisplayFor(modelItem => item.ProductTag)</td>
+                            <td>@Html.DisplayFor(modelItem => item.ProductPrice) บาท</td>
+                            <td>@Html.DisplayFor(modelItem => item.ProductCount) หน่วย</td>
+                            <td>@Html.DisplayFor(modelItem => item.ProductStatus) </td>
+                            <td>
+                                <div class="d-flex justify-content-end">
+                                    <div class="p-1">
+                                        <div class="d-grid gap-2 d-md-block">
+                                            <button class="btn btn-warning fw-bolder" type="button">
+                                                <a asp-action="Edit" style="color:white;text-decoration:none;" asp-route-id="@item.IdProduct">แก้ไข</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="p-1">
+                                        <div class="d-grid gap-2 d-md-block">
+                                            <button class="btn btn-info fw-bolder" type="button">
+                                                <a asp-action="Details" style="color:white;text-decoration:none;" asp-route-id="@item.IdProduct">รายละเอียด</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="p-1">
+                                        <div class="d-grid gap-2 d-md-block">
+                                            <button class="btn btn-danger fw-bolder" type="button">
+                                                <a asp-action="Delete" style="color:white;text-decoration:none;" asp-route-id="@item.IdProduct">ลบรายการ</a>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <p style="text-align:center;color:red"> <------| ตารางสามารถเลื่อนซ้ายขวาได้ |------></></p>
+</div>

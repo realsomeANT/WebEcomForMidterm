@@ -1,0 +1,130 @@
+﻿@model webEcom.Models.CartViewModel
+<link rel="stylesheet" href="~/css/myCsstrue.css" />
+
+@{
+    ViewData["Title"] = "Cart";
+}
+
+<style>
+    body {
+        font-family: 'Cloud Soft';
+        background-color: #F05A7E;
+    }
+</style>
+
+<div class="ggfrocart">
+    <div>
+        <h1>ตะกร้าสินค้า</h1>
+        <h3>รายการสินค้าทั้งหมด</h3>
+        <hr />
+        <br />
+        <div class="border border-dark border-3 rounded-3" style="background-color:lightgray">
+            <div class="table-responsive">
+                <table class="table" style="font-family:'Cloud Soft light';">
+                    <thead style="background-color:cornflowerblue">
+                        <tr>
+                            <th>@Html.DisplayNameFor(model => model.CartItems.First().IformfileProductInputImage)</th>
+                            <th>@Html.DisplayNameFor(model => model.CartItems.First().ProductType)</th>
+                            <th>@Html.DisplayNameFor(model => model.CartItems.First().ProductName)</th>
+                            <th>@Html.DisplayNameFor(model => model.CartItems.First().ProductTag)</th>
+                            <th>@Html.DisplayNameFor(model => model.CartItems.First().ProductPrice)</th>
+                            <th>@Html.DisplayNameFor(model => model.CartItems.First().ProductCount)</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody style="background-color:ivory">
+                        @foreach (var item in Model.CartItems)
+                        {
+                            <tr>
+                                <td>
+                                    @if (item.IformfileProductInputImage != null && item.IformfileProductInputImage.Length > 0)
+                                    {
+                                        <img src="data:@item.ProductImageType;base64,@Convert.ToBase64String(item.IformfileProductInputImage)" class="rounded-3 img-thumbnail" alt="User Picture" style="width:100px" />
+                                    }
+                                </td>
+                                <td>@Html.DisplayFor(modelItem => item.ProductType)</td>
+                                <td>@Html.DisplayFor(modelItem => item.ProductName)</td>
+                                <td>@Html.DisplayFor(modelItem => item.ProductTag)</td>
+                                <td>@Html.DisplayFor(modelItem => item.ProductPrice) บาท</td>
+                                <td>@Html.DisplayFor(modelItem => item.ProductCount) หน่วย</td>
+                                <td>
+                                    <div class="d-flex justify-content-end">
+                                        <div class="p-1">
+                                            <div class="d-grid gap-2 d-md-block">
+                                                <form method="post" asp-action="RemoveFromCart" asp-route-productId="@item.IdProduct">
+                                                    <button type="submit" class="btn btn-danger fw-bolder">ลบรายการ</button>
+                                                </form>
+                                            </div>
+                                        </div>
+
+                                        <div class="p-1">
+                                            <div class="d-grid gap-2 d-md-block">
+                                                <button class="btn btn-info fw-bolder" type="button">
+                                                    <a asp-action="Details2" style="color:white;text-decoration:none;" asp-route-id="@item.IdProduct">รายละเอียด</a>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <p style="text-align:center;color:red"> <------| ตารางสามารถเลื่อนซ้ายขวาได้ |------></></p>
+    </div>
+    <br />
+    <hr />
+    <h3>Total Price: @Model.TotalPrice บาท</h3>
+    <br />
+    <div class="d-flex  rounded-3" style="border:3px solid;background-color:white;">
+        <div style="color:red;padding:1vw;">
+            <h2>ขั้นต้อนการซื้อ</h2>
+            <h6>1. เมื่อกดสั่งซื้อ " ใบสั่งซื้อ " จะถูกส่งไปยัง Email ที่ผู้ใช้สมัคร</h6>
+            <h6>2. ตรวจสอบรายการสั่งซื้อ</h6>
+            <h6>3. สแกน QR code เพื่อทำการจ่ายเงิน</h6>
+            <h6>4. ตอบกลับเมลดดยการส่งหลักฐานการโอนเงินกลับามา</h6>
+            <h6>5. รอระบบตรวจสอบหลักฐานการโอนเงิน 1-2 วัน เมื่อตรวจสอบผ่านระบบจะส่งใบเสร็จรับเงินกลับมาให้</h6>
+            <h6>6. สินค้าจะถูกส่งไปยังที่อยู่ที่ลงทะเบียนไว้ภายใน 3 วันหลังจากที่ระบบส่งใบเสร็๗</h6>
+        </div>
+    </div>
+    <br />
+    <hr />
+    <br />
+    <p style="color:red ;align-content: center"> *** สินค้าจะถูกนำออกจากตะกร้าโดยอัตโนมัติเมื่อผ่านไป 30 นาที หรือเมื่อทำการ Log-out ออกจากระบบ ***</p>
+    <div class="row mb-2 mt-1">
+        <div class="col-12">
+            <div class="d-grid gap-2 ">
+                <form method="post" onsubmit="event.preventDefault(); sendOrderEmail();">
+                    <button type="submit" class="btn btn-success shadow fw-bolder d-inline-block w-100" style="color:white;text-decoration:none;">สั่งซื้อ</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    async function sendOrderEmail() {
+        const response = await fetch('/ProductDATAs/SendOrderEmail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+            }
+        });
+
+        if (response.ok) {
+            const data = await response.json();
+            const link = document.createElement('a');
+            link.href = data.fileUrl;
+            link.download = 'Invoice.pdf';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            // Redirect to Cart
+            window.location.href = '/ProductDATAs/Cart';
+        }
+    }
+</script>

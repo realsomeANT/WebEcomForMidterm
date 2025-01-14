@@ -1,0 +1,74 @@
+﻿.MainEdit_Box {
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    max-width: 500px;
+    width: 500px;
+    opacity: .9;
+    z-index: 1000;
+    display: inline-block;
+    margin-top: -4.5vh;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.Label_Box {
+    background-color: transparent;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 80vw;
+    opacity: .9;
+    z-index: 1000;
+    display: block;
+    margin-top: -3.5vh;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.Info_Box {
+    background-color: transparent;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    max-width: 450px;
+    width: 450px;
+    opacity: .9;
+    z-index: 1000;
+    display: block;
+    margin-top: -3.5vh;
+    margin-bottom: 2.5vh;
+    margin: 0 auto; /* Center horizontally */
+    text-decoration: none;
+    color: inherit;
+}
+    .Info_Box:hover {
+        background-color: rgba(0,0,0,0.1); 
+    }
+
+@media (max-width: 852px), (max-height: 599px) {
+
+    .MainEdit_Box {
+        background-color: none;
+        border-radius: 1vh;
+        box-shadow: 0 0 1vh rgba(0,0,0,0);
+        width: 100vw;
+        opacity: 1;
+        z-index: 5;
+        display: block;
+        max-height: 400px;
+        margin-top: calc(-25.5vh - 320px);
+        margin-bottom: 10vw;
+    }
+    .Label_Box {
+        width: 80vw;
+        margin-top: 100px;
+        display: flex;
+        z-index: 10;
+    }
+    .Info_Box {        
+        width: 80vw;
+    }
+}

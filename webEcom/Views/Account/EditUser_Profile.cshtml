@@ -1,0 +1,117 @@
+﻿@using webEcom.ViewModels;
+@model EditUser_Profile;
+
+@{
+    ViewData["Title"] = "Edit Profile";
+    Layout = "~/Views/Shared/_AccountLayout_Edit_Profile.cshtml";
+}
+<style>
+    div {
+        font-family: 'Cloud soft';
+    }
+</style>
+
+<div class="account-container">
+    <form asp-action="EditUser_Profile" enctype="multipart/form-data" onsubmit="return checkImageSelected()">
+        <div class="logo-container">
+            <img class="logo-item" src="~/images/logo1.png" />
+        </div>
+
+        <div class="account-box1">
+            <div style="opacity:0; max-height:5vh; height:5vh;">
+                <img class="logo-item" src="~/images/logo1.png" />
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-sm-5 mb3 w-50 text-center justify-content-center" style="z-index:999999; margin-bottom:10px;">
+                    <div class="row text-center justify-content-center">
+                        <div class="col-sm-6"><strong>Old Image</strong></div>
+                    </div>
+                </div>
+                <div class="col-sm-5 mb3 w-50 text-center justify-content-center" style="z-index:999999; margin-bottom:10px;">
+                    <div class="row text-center justify-content-center">
+                        <div class="col-sm-6"><strong>New Image</strong></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-sm-5 mb3 w-50 text-center justify-content-center" style="z-index:999999; margin-bottom:10px;">
+                    <img id="oldImage" src="data:image/png;base64,@ViewBag.UserProfile" style="border-radius:50%; object-fit: cover; max-height: 15vh; max-width: 15vh; min-height: 15vh; min-width: 15vh; box-shadow: 0 0 3px rgba(0,0,0,0.2);" alt="User Profile Image" />
+                </div>
+                <div class="col-sm-5 mb3 w-50 text-center justify-content-center" style="z-index:999999; margin-bottom:10px;">
+                    <img id="newImage" src="~/images/Dafault_User_Profile.png" style="border-radius: 50%; width: 100%; height: 100%; object-fit: cover; max-height: 15vh; max-width: 15vh; min-height: 15vh; min-width: 15vh; box-shadow: 0 0 3px rgba(0,0,0,0.2);" alt="New Profile Image" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 mb3 w-100" style="z-index:999999; margin-bottom:10px;">
+                    <input id="UserProfile_IFormFile" name="UserProfile_IFormFile" asp-for="UserProfile_IFormFile" type="file" accept="image/*" class="form-control" onchange="previewImage(event)" />
+                    <span asp-validation-for="UserProfile_IFormFile" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 mb3 w-100" style="z-index:999999; margin-bottom:10px;">
+                    <div id="error_text" class="text-danger"></div>
+                </div>
+            </div>
+
+            <div class="BR_V2">
+                <div style="height:40px;"></div>
+                <div class="text-center" style="position:relative; margin-top:-2.5vh; z-index:9999">
+                    <button type="submit" class="btn btn-primary w-75 p-2">Edit</button>
+                </div>
+                <div class="text-center">
+                    <div class="col-sm-12 mb-3 w-100" style="z-index:999999; margin-top:1.25vh;">
+                        <a href="javascript:void(0);" onclick="goToEditUser()">Back</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="BR_V1">
+            <div class="text-center" style="position:relative; margin-top:-2.5vh; z-index:9999">
+                <button type="submit" class="btn btn-primary w-75 p-2">Edit</button>
+            </div>
+            <div class="text-center">
+                <div class="col-sm-12 mb-3 w-100" style="z-index:999999; margin-top:1.25vh;">
+                    <a href="javascript:void(0);" onclick="goToEditUser()">Back</a>
+                </div>
+            </div>
+        </div>
+
+
+    </form>
+</div>
+
+<script>
+    function previewImage(event) {
+        const file = event.target.files[0];
+        const reader = new FileReader();
+        const newImage = document.getElementById('newImage');
+
+        if (file) {
+            reader.onload = function (e) {
+                newImage.src = e.target.result; // Set the new image source to the file's data URL
+            }
+            reader.readAsDataURL(file); // Read the file as a data URL
+        } else {
+            // Set the default image if no file is selected
+            newImage.src = '/images/Default_User_Profile.png'; // Update this path as necessary
+        }
+    }
+
+    function goToEditUser() {
+        window.location.href = '@Url.Action("EditUser", "Account")';
+    }
+
+    function checkImageSelected() {
+        const fileInput = document.getElementById('UserProfile_IFormFile');
+        const errorText = document.getElementById('error_text');
+        if (!fileInput.value) {
+            errorText.innerHTML = 'Please insert an image.';
+            return false; // Prevent form submission
+        }
+        errorText.innerHTML = ''; // Clear any previous error message
+        return true; // Allow form submission
+    }
+</script>

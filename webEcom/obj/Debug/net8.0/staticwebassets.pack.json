@@ -1,0 +1,417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\webEcom.bundle.scp.css",
+      "PackagePath": "staticwebassets\\webEcom.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\css\\About.css",
+      "PackagePath": "staticwebassets\\css\\About.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\css\\EditUser.css",
+      "PackagePath": "staticwebassets\\css\\EditUser.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\css\\account.css",
+      "PackagePath": "staticwebassets\\css\\account.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\css\\account_Edit.css",
+      "PackagePath": "staticwebassets\\css\\account_Edit.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\css\\account_Edit_Profile.css",
+      "PackagePath": "staticwebassets\\css\\account_Edit_Profile.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\css\\myCsstrue.css",
+      "PackagePath": "staticwebassets\\css\\myCsstrue.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\fonts\\THSarabunNew Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\THSarabunNew Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\fonts\\THSarabunNew BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\THSarabunNew BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\fonts\\THSarabunNew Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\THSarabunNew Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\fonts\\THSarabunNew.ttf",
+      "PackagePath": "staticwebassets\\fonts\\THSarabunNew.ttf"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\1.png",
+      "PackagePath": "staticwebassets\\images\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\1732786927531.png",
+      "PackagePath": "staticwebassets\\images\\1732786927531.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\About_page_1.png",
+      "PackagePath": "staticwebassets\\images\\About_page_1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Artboard 1.png",
+      "PackagePath": "staticwebassets\\images\\Artboard 1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Artboard 1_1.png",
+      "PackagePath": "staticwebassets\\images\\Artboard 1_1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Artboard 1_2.png",
+      "PackagePath": "staticwebassets\\images\\Artboard 1_2.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Bg1.jpg",
+      "PackagePath": "staticwebassets\\images\\Bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Bn_P4.jpg",
+      "PackagePath": "staticwebassets\\images\\Bn_P4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Dafault_User_Profile.png",
+      "PackagePath": "staticwebassets\\images\\Dafault_User_Profile.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Ig_1.png",
+      "PackagePath": "staticwebassets\\images\\Ig_1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\LOGAN_Text1.png",
+      "PackagePath": "staticwebassets\\images\\LOGAN_Text1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\LOGAN_Text2.png",
+      "PackagePath": "staticwebassets\\images\\LOGAN_Text2.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\LOGAN_Text3.png",
+      "PackagePath": "staticwebassets\\images\\LOGAN_Text3.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Line_1.png",
+      "PackagePath": "staticwebassets\\images\\Line_1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Logo1.png",
+      "PackagePath": "staticwebassets\\images\\Logo1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\LogoQR.png",
+      "PackagePath": "staticwebassets\\images\\LogoQR.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\LogoRyuchuko - Copy.png",
+      "PackagePath": "staticwebassets\\images\\LogoRyuchuko - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\LogoRyuchuko.png",
+      "PackagePath": "staticwebassets\\images\\LogoRyuchuko.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Phone_1.png",
+      "PackagePath": "staticwebassets\\images\\Phone_1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Profile_icon_default.jpg",
+      "PackagePath": "staticwebassets\\images\\Profile_icon_default.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\RyoChuKo_Text - Copy.png",
+      "PackagePath": "staticwebassets\\images\\RyoChuKo_Text - Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\RyoChuKo_Text.png",
+      "PackagePath": "staticwebassets\\images\\RyoChuKo_Text.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\Truck1.png",
+      "PackagePath": "staticwebassets\\images\\Truck1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\about_bg1.jpg",
+      "PackagePath": "staticwebassets\\images\\about_bg1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\about_bg2.png",
+      "PackagePath": "staticwebassets\\images\\about_bg2.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\about_item_set_1.png",
+      "PackagePath": "staticwebassets\\images\\about_item_set_1.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\about_item_set_2.png",
+      "PackagePath": "staticwebassets\\images\\about_item_set_2.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\images\\back-button.png",
+      "PackagePath": "staticwebassets\\images\\back-button.png"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.webEcom.props",
+      "PackagePath": "build\\webEcom.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.webEcom.props",
+      "PackagePath": "buildMultiTargeting\\webEcom.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.webEcom.props",
+      "PackagePath": "buildTransitive\\webEcom.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.webEcom.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

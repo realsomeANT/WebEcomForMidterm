@@ -1,0 +1,57 @@
+﻿@using webEcom.ViewModels;
+@model EditUser_Name;
+
+@{
+    ViewData["Title"] = "Edit Name";
+    Layout = "~/Views/Shared/_AccountLayout_Edit.cshtml";
+}
+<style>
+    div{
+        font-family: 'Cloud soft';
+    }
+</style>
+
+<div class="account-container">
+
+    <form asp-controller="Account" asp-action="EditUser_Name" method="post">
+
+        <div class="logo-container">
+            <img class="logo-item" src="~/images/logo1.png" />
+        </div>
+
+        <div class="account-box1">
+            <div style="opacity:0; max-height:5vh; height:5vh;">
+                <img class="logo-item" src="~/images/logo1.png" />
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-12"><strong>Old Name</strong></div>
+                <div class="col-sm-12" style="margin-bottom:1vh; overflow-wrap:break-word; word-wrap:break-word; hyphens: auto;">@ViewBag.UserFirstName</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 mb3 w-100" style="z-index:999999; margin-bottom:10px;">
+                    <input type="text" asp-for="UserFirstName" class="form-control" placeholder="New Name">
+                    <span asp-validation-for="UserFirstName" class="text-danger"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="text-center" style="position:relative; margin-top:-2.5vh; z-index:9999">
+            <button type="submit" class="btn btn-primary w-75 p-2">Edit</button>
+        </div>
+
+        <div class="text-center">
+            <div class="col-sm-12 mb-3 w-100" style="z-index:999999; margin-top:1.25vh;">
+                <a href="javascript:void(0);" onclick="goToEditUser()">Back</a>
+            </div>
+        </div>
+
+    </form>
+
+</div>
+
+<script>
+    function goToEditUser() {
+        window.location.href = '@Url.Action("EditUser", "Account")';
+    }
+</script>

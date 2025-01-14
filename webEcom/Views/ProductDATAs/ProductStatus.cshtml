@@ -1,0 +1,99 @@
+﻿@model List<webEcom.Models.ProductDATA>
+
+@{
+    ViewData["Title"] = "Product Status";
+}
+
+
+
+<style>
+    body {
+        font-family: 'Cloud Soft';
+        background-color: #F05A7E;
+    }
+
+    .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 100, 'GRAD' 0, 'opsz' 10;
+    }
+
+    .ft5 {
+        background-color: #fcf7fa;
+        padding: 50px 2vw 30px 2vw;
+        margin-top: -20px;
+        min-height: 120vh;
+        margin-block-end: -20px;
+    }
+
+</style>
+
+<div class="ft5">
+
+
+    <h1>สถานะสินค้า</h1>
+    <br />
+    <hr />
+    <br />
+    <form asp-action="UpdateProductStatus" method="post">
+
+        <div class="border border-dark border-3 rounded-3" style="background-color:lightgray">
+            <div class="table-responsive">
+                <table class="table" style="font-family:'Cloud Soft light';">
+                    <thead style="background-color:#0BB494">
+                        <tr>
+                            <th>รูปภาพสินค้า</th>
+                            <th>ชื่อสินค้า</th>
+                            <th>จำนวน</th>
+                            <th>ราคาสินค้า</th>
+                            <th>ชื่อผู้ซื้อสินค้า</th>
+                            <th>เบอร์โทร</th>
+                            <th>วันที่ส่ง</th>
+                            <th>เลขพัสดุ</th>
+                            <th>สถานะสินค้า</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody style="background-color:ivory">
+
+                        @foreach (var product in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @if (product.IformfileProductInputImage != null && product.IformfileProductInputImage.Length > 0)
+                                    {
+                                        <img src="data:@product.ProductImageType;base64,@Convert.ToBase64String(product.IformfileProductInputImage)" class="rounded-3 img-thumbnail" alt="User Picture" style="width:100px" />
+                                    }
+                                </td>
+                                <td>@product.ProductName</td>
+                                <td>@product.ProductCount</td>
+                                <td>@product.ProductPrice บาท</td>
+                                <td>@product.ProductUserName</td>
+                                <td>@product.ProductUserTel</td>
+                                <td>
+                                    @if (product.ProductSendTime.HasValue)
+                                    {
+                                        @product.ProductSendTime.Value.ToString("dd MMM yyyy", System.Globalization.CultureInfo.InvariantCulture)
+                                    }
+                                </td>
+                                <td>@product.ProductSendNumber</td>
+                               
+                                <td>@product.ProductStatus</td>
+                                <td>
+                                    @if (product.ProductStatus == "ส่งแล้ว")
+                                    {
+                                        <button type="submit" name="productId" value="@product.IdProduct" class="btn btn-success">รับของสำเร็จ</button>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <p style="text-align:center;color:red"> <------| ตารางสามารถเลื่อนซ้ายขวาได้ |------></></p>
+
+
+
+    </form>
+
+</div>

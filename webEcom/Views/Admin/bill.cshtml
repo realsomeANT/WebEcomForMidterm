@@ -1,0 +1,110 @@
+﻿@model IEnumerable<dynamic>
+
+<link href="~/css/myCsstrue.css" rel="stylesheet" />
+
+
+
+@{
+    ViewData["Title"] = "Index";
+
+
+
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+<style>
+    body {
+        font-family: 'Cloud Soft';
+        background-color: #F05A7E;
+    }
+</style>
+
+
+<div class="frameforbill">
+    <h1>รายการสินค้า</h1>
+    <h2>ที่รอตรวจสอบการชำระเงิน</h2>
+    <br />
+    <hr />
+    @foreach (var group in Model)
+
+
+
+    {
+        <div class="border border-dark border-3 rounded-3" style="background-color:lightgray">
+            <div class="table-responsive">
+                <table class="table" style="font-family:'Cloud Soft light';">
+                    <thead style="background-color:#0BB494">
+                        <tr>
+                            <th>รูปภาพสินค้า</th>
+                            <th>ชื่อสินค้า</th>
+                            <th>ราคาสินค้า</th>
+                            <th>จำนวน</th>
+                            <th>สถานะสินค้า</th>
+                            <th>ชื่อผู้ซื้อสินค้า</th>
+                            <th>เบอร์โทรผู้ซื้อสินค้า</th>
+                            <th>กดสั่งซื้อผ่านมา</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody style="background-color:ivory">
+                        @foreach (var product in group.Products)
+
+
+
+                        {
+                            <tr>
+                                <td>
+                                    @if (product.IformfileProductInputImage != null && product.IformfileProductInputImage.Length > 0)
+
+
+
+
+
+
+
+                                    {
+                                        <img src="data:@product.ProductImageType;base64,@Convert.ToBase64String(product.IformfileProductInputImage)" class="rounded-3 img-thumbnail" alt="User Picture" style="width:100px" />
+                                    }
+                                </td>
+                                <td>@product.ProductName</td>
+                                <td>@product.ProductPrice บาท</td>
+                                <td>@product.ProductCount หน่วย</td>
+                                <td>@product.ProductStatus</td>
+                                <td>@product.ProductUserName</td>
+                                <td>@product.ProductUserTel</td>
+                                <td>@(DateTime.Now.Subtract(product.ProductSendBill).Days) วัน</td>
+                                <td>
+                                    <form asp-action="DeleteProduct" method="post" onsubmit="return confirm('คุณแน่ใจใช่ไหมว่าต้องการให้รายการสินค้านี้กลับเข้า Market ?');">
+
+                                        <button type="submit" name="productId" value="@product.IdProduct" class="btn btn-danger shadow fw-bolder text-white">นำออก</button>
+                                    </form>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+        <p style="text-align:center;color:red"> <------| ตารางสามารถเลื่อนซ้ายขวาได้ |------></></p>
+        <br />
+        <div class="row mb-2 mt-1">
+            <div class="col-12">
+
+                <form asp-action="MarkAsPaid">
+                    <div >
+                        <button name="EmailAndSendBill" class="btn btn-success  w-100 shadow fw-bolder text-white text-decoration-none"
+                                value="@group.Email|@group.SendBill" type="submit">
+                            ชำระเงินเรียบร้อย
+                        </button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <br />
+
+    }
+
+</div>

@@ -1,0 +1,134 @@
+/* _content/webEcom/Views/Shared/_AdminLayout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-kzkra0ixy5] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-kzkra0ixy5] {
+  color: #0077cc;
+}
+
+.btn-primary[b-kzkra0ixy5] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-kzkra0ixy5], .nav-pills .show > .nav-link[b-kzkra0ixy5] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-kzkra0ixy5] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-kzkra0ixy5] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-kzkra0ixy5] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-kzkra0ixy5] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-kzkra0ixy5] {
+    color: white;
+    background-color: #125B9A;
+    position: absolute;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+/* _content/webEcom/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-hyl3f47jg7] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-hyl3f47jg7] {
+  color: #0077cc;
+}
+
+.btn-primary[b-hyl3f47jg7] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-hyl3f47jg7], .nav-pills .show > .nav-link[b-hyl3f47jg7] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-hyl3f47jg7] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-hyl3f47jg7] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-hyl3f47jg7] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-hyl3f47jg7] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-hyl3f47jg7] {
+    color: white;
+    background-color: #125B9A;
+    position: absolute;
+    
+    margin-top: 50px;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+.search-form[b-hyl3f47jg7] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input-group[b-hyl3f47jg7] {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    flex-grow: 1;
+    max-width: 500px;
+}
+
+.search-input[b-hyl3f47jg7] {
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.search-button[b-hyl3f47jg7] {
+    border-radius: 0 1.5rem 1.5rem 0;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-icon[b-hyl3f47jg7] {
+    font-size: 20px;
+}

@@ -1,0 +1,64 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject SignInManager<Users> signInManager;
+@inject UserManager<Users> UserManager
+@using System.Security.Claims
+
+@{
+    var userEmail = User.FindFirst(ClaimTypes.Email)?.Value; // Accessing the email claim
+}
+
+<style>
+    .user_proflie_image{
+        margin-top:-0.5vh;
+        max-height: 4vh;
+        border-radius: 100%;
+        pointer-events: none;
+    }
+    .dropdown-toggle:focus {
+            outline: none; 
+            box-shadow: none; 
+            transition: 0;
+        }
+
+    .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: 0.255em;
+        vertical-align: 0.255em;
+        content: "";
+        border-top: 0 solid;
+        border-right: 0 solid transparent;
+        border-bottom: 0;
+        border-left: 0 solid transparent;
+    }
+
+</style>
+
+
+
+<ul class="navbar-nav ms-auto">
+	@if (signInManager.IsSignedIn(User))
+	{
+        <li class="nav-item" style="height:40px; margin-top:-0.2vh;">
+			<div class="dropdown" style="text-align:center; justify-content:center;">
+                <a class="nav-link text-dark dropdown-toggle" onclick="toggleDropdown()" data-bs-toggle="dropdown" style="user-select: none; -ms-user-select: none; -moz-user-select: none; -webkit-user-select: none; height:40px">
+                    <img class="user_proflie_image" src="~/images/profile_icon_default.jpg" />
+                    @userEmail
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+					<li><a class="dropdown-item" asp-controller="Account" asp-action="EditUser">Edit Account</a></li>
+					<li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">Logout</a></li>
+				</ul>
+			</div>
+		</li>
+	}
+	else
+	{
+		<li class="nav-item">
+			<a class="nav-link text-dark" asp-controller="Account" asp-action="Login">Login</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link text-dark" asp-controller="Account" asp-action="Register">Register</a>
+		</li>
+	}
+</ul>
+

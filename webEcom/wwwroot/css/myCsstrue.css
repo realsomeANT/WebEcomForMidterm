@@ -1,0 +1,44 @@
+.frameart {
+    background-color: #fcf7fa;
+    padding: 50px 4vw 30px 4vw;
+    margin-top: -20px;
+    min-height: 120vh;
+    margin-block-end: -20px;
+}
+
+
+
+.frameart1 {
+    background-color: white;
+    padding: 50px 8vw 30px 8vw;
+    margin-top: -20px;
+    margin-block-end: -20px;
+}
+
+.frameart2 {
+    background-color: #fcf7fa;
+    padding: 50px 8vw 30px 8vw;
+    margin-top: -20px;
+    margin-block-end: -20px;
+}
+
+.frameforbill {
+    background-color: #fcf7fa;
+    min-height: 120vh;
+    padding: 50px 8vw 30px 8vw;
+    margin-top: -20px;
+    margin-block-end: -20px;
+}
+
+.ggfrocart {
+    background-color: #fcf7fa;
+    min-height: 150vh;
+    padding: 50px 8vw 30px 8vw;
+    margin-top: -20px;
+    margin-block-end: -20px;
+}
+
+.btncolor {
+    background-color: hotpink;
+}
+

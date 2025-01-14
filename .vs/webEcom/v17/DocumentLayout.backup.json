@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\new folder\\webecom\\webecom\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|solutionrelative:webecom\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\new folder\\webecom\\webecom\\controllers\\productdatascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|solutionrelative:webecom\\controllers\\productdatascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\new folder\\webecom\\webecom\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|solutionrelative:webecom\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\new folder\\webecom\\webecom\\views\\productdatas\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|solutionrelative:webecom\\views\\productdatas\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\new folder\\webecom\\webecom\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|solutionrelative:webecom\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\new folder\\webecom\\webecom\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|solutionrelative:webecom\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\new folder\\webecom\\webecom\\viewmodels\\edituser_address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|solutionrelative:webecom\\viewmodels\\edituser_address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\new folder\\webecom\\webecom\\models\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|solutionrelative:webecom\\models\\productdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\new folder\\webecom\\webecom\\views\\admin\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|solutionrelative:webecom\\views\\admin\\bill.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|c:\\users\\lenovo\\desktop\\new folder\\webecom\\webecom\\data\\webecomdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DCE83A20-5BF8-41C4-9DE3-29E06499C81F}|webEcom\\webEcom.csproj|solutionrelative:webecom\\data\\webecomdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "webEcom\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "webEcom\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAwwJkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:47:56.152Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductDATAsController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Controllers\\ProductDATAsController.cs",
+              "RelativeDocumentMoniker": "webEcom\\Controllers\\ProductDATAsController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Controllers\\ProductDATAsController.cs",
+              "RelativeToolTip": "webEcom\\Controllers\\ProductDATAsController.cs",
+              "ViewState": "AgIAAOoBAAAAAAAAAAAkwBECAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T15:28:18.393Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cart.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Views\\ProductDATAs\\Cart.cshtml",
+              "RelativeDocumentMoniker": "webEcom\\Views\\ProductDATAs\\Cart.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Views\\ProductDATAs\\Cart.cshtml",
+              "RelativeToolTip": "webEcom\\Views\\ProductDATAs\\Cart.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwE4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T14:53:37.54Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "webEcom\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "webEcom\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T12:08:08.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditUser_Address.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\ViewModels\\EditUser_Address.cs",
+              "RelativeDocumentMoniker": "webEcom\\ViewModels\\EditUser_Address.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\ViewModels\\EditUser_Address.cs",
+              "RelativeToolTip": "webEcom\\ViewModels\\EditUser_Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:57:11.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\ViewModels\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "webEcom\\ViewModels\\CartViewModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\ViewModels\\CartViewModel.cs",
+              "RelativeToolTip": "webEcom\\ViewModels\\CartViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:57:00.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductDATA.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Models\\ProductDATA.cs",
+              "RelativeDocumentMoniker": "webEcom\\Models\\ProductDATA.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Models\\ProductDATA.cs",
+              "RelativeToolTip": "webEcom\\Models\\ProductDATA.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwF0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T11:51:00.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "bill.cshtml",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Views\\Admin\\bill.cshtml",
+              "RelativeDocumentMoniker": "webEcom\\Views\\Admin\\bill.cshtml",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Views\\Admin\\bill.cshtml",
+              "RelativeToolTip": "webEcom\\Views\\Admin\\bill.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAGEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-13T12:50:47.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "webEcomDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Data\\webEcomDBContext.cs",
+              "RelativeDocumentMoniker": "webEcom\\Data\\webEcomDBContext.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\Data\\webEcomDBContext.cs",
+              "RelativeToolTip": "webEcom\\Data\\webEcomDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T12:31:57.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\appsettings.json",
+              "RelativeDocumentMoniker": "webEcom\\appsettings.json",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\New folder\\webEcom\\webEcom\\appsettings.json",
+              "RelativeToolTip": "webEcom\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-13T12:31:54.23Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

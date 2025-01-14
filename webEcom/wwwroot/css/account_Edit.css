@@ -1,0 +1,139 @@
+﻿.account-container {
+    background-image: url('../images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-y;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2vh 0;
+    z-index: -999999;
+    margin-top:-74px;
+}
+
+.account-box1 {
+    background-color: #ffffff;
+    padding: 3vh;
+    border-radius: 1vh;
+    box-shadow: 0 0 1vh rgba(0,0,0,0.3);
+    width: 33vw;
+    opacity: .9;
+    z-index: 1000;
+    display: block;
+    margin-top: -3.5vh;
+}
+
+.logo-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    max-height: 1vh;
+    height: 1vh;
+    z-index: 900;
+    pointer-events: none;
+}
+
+.logo-item {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    max-height: 140px;
+    height: 140px;
+    box-shadow: 0 0 1vh rgba(0,0,0,0.3);
+    border-radius: 50%;
+    margin-bottom: 100px;
+    pointer-events: none;
+}
+
+.BR {
+    position: absolute;
+}
+.BR2 {
+    position: absolute;
+}
+.BR3 {
+    position: relative;
+    height:20vh;
+}
+.BR4 {
+    position: absolute;
+}
+.BR_V1 {
+    display: block;
+}
+.BR_V2 {
+    display: none;
+}
+.pad_me{
+
+}
+
+@media (max-width: 852px), (max-height: 599px) {
+    .account-container {
+        background-image: none;
+        background-color: white;
+        display: flex;
+        margin-top: -0vh;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 2vh 0;
+        z-index: -999999;
+    }
+
+    .account-box1 {
+        background-color: none;
+        padding: 12.5vw;
+        border-radius: 1vh;
+        box-shadow: 0 0 1vh rgba(0,0,0,0);
+        width: 100vw;
+        opacity: .9;
+        z-index: 1000;
+        display: block;
+        max-height: 400px;
+        margin-top: -6.5vh;
+        margin-bottom: 10vw;
+    }
+
+    .logo-item {
+        max-height: 120px;
+        height: 120px;
+        margin-bottom: 8vh;
+        margin-top: 12.5vh;
+    }
+    .BR {
+        background-color: none;
+        border: none;
+        height: 16px;
+        position: relative;
+    }
+    .BR2 {
+        background-color: none;
+        border: none;
+        height: 27.5vh;
+        position: relative;
+    }
+    .BR3 {
+        position: absolute;
+        height: 0vh;
+    }
+    .BR4 {
+        background-color: none;
+        border: none;
+        margin-top:-200px;
+        position: relative;
+    }
+    .BR_V1 {
+        display: none;
+    }
+
+    .BR_V2 {
+        display: block;
+    }
+    .pad_me {
+        margin-top:50px;
+    }
+}

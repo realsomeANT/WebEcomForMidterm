@@ -1,0 +1,254 @@
+﻿@model webEcom.Models.HomeViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<style>
+
+    body{
+        font-family: 'Cloud Soft';
+        background: linear-gradient(to right, #F05A7E 1%, #fcf7fa 1%, #fcf7fa 99%, #F05A7E 99%);
+    }
+
+    
+
+    #carouselExampleRide {
+        width: 100%; /* กำหนดความกว้างเต็มหน้าจอ */
+        height: 100%; /* ปรับความสูงของแบนเนอร์ตามที่ต้องการ */
+        overflow: hidden; /* ป้องกันไม่ให้แบนเนอร์เลื่อนออกนอกพื้นที่ */
+    }
+
+        #carouselExampleRide .carousel-item {
+            height: 100%; /* กำหนดความสูงของแต่ละ item ให้เต็มพื้นที่ */
+        }
+
+         #carouselExampleRide .carousel-item img {
+                width: 100%; /* ให้รูปภาพขยายเต็มความกว้าง */
+                height: 100%; /* ให้รูปภาพขยายเต็มความสูง */
+                object-fit: cover; /* ให้รูปครอบเต็มพื้นที่โดยไม่บิดเบี้ยว */
+            }
+   
+
+    .product-card h3 {
+        margin-top: 0;
+    }
+
+    .bt-Cate {
+        
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.5);
+        border-radius:0px;
+        padding:10px;
+        margin:0px;
+    }
+
+    .bt-Cate:hover {
+            transform: scale(1.1);
+            background-color: #125B9A;
+            color:white;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 50%; /* กึ่งกลางในแนวตั้ง */
+        left: 50%; /* กึ่งกลางในแนวนอน */
+        transform: translate(-50%, -50%); /* ใช้ translate เพื่อปรับจุดศูนย์กลาง */
+        text-align: center;
+        padding: 15px; /* เพิ่มพื้นที่ภายใน */
+        border-radius: 10px; /* มุมโค้งมน */
+        width: auto; /* ให้ขนาดปรับตามเนื้อหา */
+        max-width: 80%; /* จำกัดความกว้าง */
+    }
+
+        .carousel-caption h5 {
+            font-size: 2rem; /* ขนาดหัวข้อใหญ่ */
+            margin-bottom: 10px; /* ระยะห่างระหว่างหัวข้อ */
+            color: white;
+        }
+
+        .carousel-caption p {
+            font-size: 1.2rem; /* ขนาดข้อความย่อหน้าน้อยกว่าหัวข้อ */
+            margin-bottom: 15px;
+            color: white;
+        }
+
+        .carousel-caption a {
+            font-size: 1rem; /* ขนาดปุ่มเหมาะสม */
+            padding: 10px 20px;
+            background-color: #F05A7E;
+            color: white;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+    .btn-go:hover{
+        transform:scale(1.1)
+    }
+
+    .promo-banner {
+        margin-top: 0.5vw;
+        background: linear-gradient(to right, #F05A7E, #fcf7fa);
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .promo-banner:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .promo-banner a {
+            background: #F05A7E;
+            color: white;
+            border-radius: 5px;
+            padding: 5px 10px;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: background 0.3s ease, transform 0.3s ease;
+        }
+
+            .promo-banner a:hover {
+                background: #fcf7fa;
+                color: #F05A7E;
+                transform: scale(1.1);
+            }
+</style>
+<div class="subcolor">
+<div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="/images/Artboard 1_2.png" class="d-block w-100" alt="Homebanner">
+            
+        </div>
+        <div class="carousel-item">
+            <img src="/images/Artboard 1.png" class="d-block w-100" alt="Homebanner">
+            
+        </div>
+        <div class="carousel-item">
+            <img src="/images/Artboard 1_1.png" class="d-block w-100" alt="Homebanner">
+            
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+    <div class="promo-banner mt-3">
+        <a asp-controller="ProductDATAs" asp-action="Index" class="btn btn-go">
+            ไปซื้อกันเลย
+        </a>
+    </div>
+<div class="container">
+    <!-- ประเภทสินค้า -->
+
+    <div class="categories-container" style="margin-top: 20px; text-align:center;">
+        @if (Model.Categories != null && Model.Categories.Any())
+        {
+            @foreach (var category in Model.Categories)
+            {
+                <a asp-controller="ProductDATAs" asp-action="Index" asp-route-productType="@category" class="btn  bt-Cate ">
+                    @category
+                </a>
+            }
+        }
+        else
+        {
+            <p>ไม่มีประเภทสินค้าให้แสดง</p>
+        }
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="row" style="margin-top:30px;background-color:#0B8494 ; padding: 10px; border-radius:5px;">
+        <div class="row">
+            <h2 style="text-align:center; color:white;">สินค้าแนะนำ</h2>
+        </div>
+
+
+        <div class="row ">
+           
+            <div class="product-list  ">
+            @if (Model.RecommendedProducts != null && Model.RecommendedProducts.Any())
+            {
+                @foreach (var product in Model.RecommendedProducts)
+                {
+
+                        <a asp-controller="ProductDATAs" asp-action="Details" asp-route-id="@product.IdProduct" class="text-decoration-none">
+                            <div class="card custom-card">
+                                <img src="data:@product.ProductImageType;base64,@Convert.ToBase64String(product.IformfileProductInputImage)"
+                                     class="card-img-top square-img" alt="Product Image">
+                                <div class="card-body">
+                                    <h6 class="card-title" style="color:black">@product.ProductName</h6>
+                                    <h6 class="card-text fw-bold " style="color:#F05a7e">฿@product.ProductPrice</h6>
+                                </div>
+                            </div>
+                        </a>
+                }
+
+            }
+            else
+            {
+                    <p>ไม่มีสินค้าแนะนำ</p>
+            }
+            </div>
+            
+        </div>
+
+
+    </div>
+    <div class="row" style=" margin-top:50px;">
+        <div class="row ">
+            <h2 >สินค้าใหม่!!</h2>
+        </div>
+        <div class="row">
+            <div class="product-list">
+                @if (Model.RecentProducts != null && Model.RecentProducts.Any())
+                {
+                    @foreach (var product in Model.RecentProducts)
+                    {
+
+                        <a asp-controller="ProductDATAs" asp-action="Details" asp-route-id="@product.IdProduct" class="text-decoration-none">
+                            <div class="card custom-card">
+                                <img src="data:@product.ProductImageType;base64,@Convert.ToBase64String(product.IformfileProductInputImage)"
+                                     class="card-img-top square-img" alt="Product Image">
+                                <div class="card-body">
+                                    <h6 class="card-title" style="color:black">@product.ProductName</h6>
+                                    <h6 class="card-text fw-bold " style="color:#F05a7e">฿@product.ProductPrice</h6>
+                                </div>
+                            </div>
+                        </a>
+
+                    }
+                }
+                else
+                {
+                    <p>ไม่มีสินค้าล่าสุด</p>
+                }
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <div class="row"> 
+
+    </div>
+
+    
+
+</div>
+
+
+
+
+
+</div>
